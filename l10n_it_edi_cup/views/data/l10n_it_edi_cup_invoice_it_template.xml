@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="account_invoice_line_it_FatturaPA" inherit_id="l10n_it_edi.account_invoice_it_FatturaPA_export">
+            <DatiGenerali position="inside">
+                <DatiConvenzione >
+                   <t t-call="l10n_it_edi.account_invoice_FatturaPA_origin_document"/>
+                </DatiConvenzione>
+            </DatiGenerali>
+        </template>
+    </data>
+</odoo>
