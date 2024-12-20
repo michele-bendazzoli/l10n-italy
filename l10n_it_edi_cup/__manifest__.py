@@ -15,7 +15,7 @@ Gestione cup per Fatturazione elettronica anche per clienti privati
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Accounting/Localizations/EDI',
-    'version': '18.0.0.1',
+    'version': '16.0.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['base','l10n_it_edi'],
