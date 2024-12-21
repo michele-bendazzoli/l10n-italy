@@ -3,9 +3,11 @@
     <data>
         <template id="account_invoice_line_it_FatturaPA" inherit_id="l10n_it_edi.account_invoice_it_FatturaPA_export">
             <DatiGenerali position="inside">
-                <DatiConvenzione t-if="origin_document_type != 'agreement'">
-                   <t t-call="l10n_it_edi.account_invoice_FatturaPA_origin_document"/>
-                </DatiConvenzione>
+                <t t-if="cup">
+                    <DatiConvenzione t-if="origin_document_type != 'agreement'">
+                        <t t-call="l10n_it_edi.account_invoice_FatturaPA_origin_document"/>
+                    </DatiConvenzione>
+                </t>
             </DatiGenerali>
         </template>
     </data>
