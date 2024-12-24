@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "l10n_it_edi_cup",
+    'name': "ITA - Fattura elettronica - Cup",
 
     'summary': "Gestione cup per Fatturazione elettronica anche per clienti privati",
 
@@ -9,7 +9,7 @@ Gestione cup per Fatturazione elettronica anche per clienti privati
     """,
 
     'author': "Applibra",
-    'website': "https://applibra.com",
+    'website': "https://github.com/OCA/l10n-italy",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
